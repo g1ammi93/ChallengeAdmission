@@ -1,0 +1,106 @@
+/*REGOLE GENERALI DEL SITO*/
+
+body {
+    background: url(IMG/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.comic-sans {
+    font-family: "Comic Sans MS", cursive;
+}
+
+.container {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 110px;
+}
+
+/*Logo e Titolo*/
+
+header {
+    text-align: center;
+    color: rgb(0, 221, 0);
+    margin: 0;
+}
+
+.logo {
+    width: 230px;
+    margin-bottom: 0;
+}
+
+.logo-text {
+    font-size: 30px;
+    font-family: "Comic Sans Ms";
+    margin-bottom: 3px;
+}
+
+/*Stringa verde con i Bottoni per le prenotazioni*/
+
+nav {
+    font-family: "Comic Sans Ms";
+    background-color: rgb(0, 221, 0);
+    text-align: center;
+    gap: 5px;
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(0, 221, 0);
+}
+
+/*Colore delle scritte e Font Utilizzato nella parte dei Lim*/
+
+main {
+    color: white;
+    font-family: "Comic Sans Ms";
+}
+
+/*Font e margini parte dei Lim*/
+
+.mpattino {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.arrow {
+    font-size: 15px;
+}
+
+.carica {
+    font-size: 15px;
+}
+
+.lim {
+    margin-top: 20px;
+}
+
+/*Freccia prima delle vie*/
+
+.arrow:before {
+    content: "\21A6";
+}
+
+/*Le tre barre di carica dei mpattini*/
+
+.barra-50 {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(245, 180, 83)
+}
+
+.barra-100 {
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(30, 195, 30)
+}
+
+.barra-25 {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(190, 65, 65)
+}
